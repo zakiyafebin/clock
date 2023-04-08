@@ -1,0 +1,66 @@
+.circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+   
+    margin: auto;
+    
+    
+    background-color: grey;
+    border: 2px solid black;
+    box-shadow: 1px 1px;
+}
+.centre{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 200px;
+    background-color: black;
+    left: 150px;
+    top: 150px;
+  
+  
+}
+@keyframes hrNeedle {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+.hr{
+    position: absolute;
+    background-color: black;
+    width: 7px;
+    height: 90px;
+    left: 155px;
+    top: 155px;
+
+    border-radius: 3px;
+  animation: hrNeedle 6s infinite;
+  transform-origin: top center;
+  animation-timing-function: linear;
+  
+
+}
+@keyframes minNeedle {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+
+.min{
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 120px;
+    left: 155px;
+    top: 155px;
+
+    border-radius: 3px;
+  animation: minNeedle 60s infinite;
+  transform-origin: top center;
+  animation-timing-function: linear;
+    
+}
