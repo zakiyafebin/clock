@@ -23,6 +23,7 @@
     background-color: black;
     left: 150px;
     top: 150px;
+    
   
   
 }
@@ -55,6 +56,25 @@
     background-color: black;
     width: 5px;
     height: 120px;
+    left: 155px;
+    top: 155px;
+
+    border-radius: 3px;
+  animation: minNeedle 10s infinite;
+  transform-origin: top center;
+  animation-timing-function: linear;
+    
+}
+@keyframes secNeedle {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+
+.sec{
+    position: absolute;
+    background-color: black;
+    width: 1px;
+    height: 140px;
     left: 155px;
     top: 155px;
 
