@@ -39,7 +39,7 @@
     top: 155px;
 
     border-radius: 3px;
-  animation: hrNeedle 6s infinite;
+  animation: hrNeedle 60s infinite;
   transform-origin: top center;
   animation-timing-function: linear;
   
@@ -59,7 +59,7 @@
     top: 155px;
 
     border-radius: 3px;
-  animation: minNeedle 60s infinite;
+  animation: minNeedle 6s infinite;
   transform-origin: top center;
   animation-timing-function: linear;
     
